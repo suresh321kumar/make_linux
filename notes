@@ -1,0 +1,5 @@
+https://kernel.org/pub/linux/kernel/v4.x/linux-4.14.176.tar.gz
+
+cp -fpRv "/home/kompile/suresh_dir/files_openwrt"/. ./
+
+find /home/kompile/suresh_dir/patches_openwrt/ -type f -name '*.patch' -print0 | sort -z | xargs -t -0 -n 1 patch -p1 -i
