@@ -8,5 +8,5 @@ make clean && make mrproper
 rm vmlinux.obj vmlinux.lzma firmware.bin
 echo "==== Compiling kernel"
 make ARCH=mips allnoconfig KCONFIG_ALLCONFIG=${config_file}
-make ARCH=mips CROSS_COMPILE=/home/kompile/mipsel-linux-muslsf-cross/bin/mipsel-linux-muslsf-
+#make ARCH=mips CROSS_COMPILE=/home/kompile/mipsel-linux-muslsf-cross/bin/mipsel-linux-muslsf-
 echo "==== DONE"
